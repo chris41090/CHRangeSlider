@@ -12,6 +12,7 @@
 		B6E77BFA1CD489EC0084348D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E77BF81CD489EC0084348D /* Main.storyboard */; };
 		B6E77BFC1CD489EC0084348D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E77BFB1CD489EC0084348D /* Assets.xcassets */; };
 		B6E77BFF1CD489EC0084348D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E77BFD1CD489EC0084348D /* LaunchScreen.storyboard */; };
+		B6E77C071CD489FD0084348D /* CHRangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E77C061CD489FD0084348D /* CHRangeSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B6E77BFB1CD489EC0084348D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6E77BFE1CD489EC0084348D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6E77C001CD489EC0084348D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E77C061CD489FD0084348D /* CHRangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHRangeSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B6E77BFB1CD489EC0084348D /* Assets.xcassets */,
 				B6E77BFD1CD489EC0084348D /* LaunchScreen.storyboard */,
 				B6E77C001CD489EC0084348D /* Info.plist */,
+				B6E77C061CD489FD0084348D /* CHRangeSlider.swift */,
 			);
 			path = CHRangeSlider;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					B6E77BF01CD489EC0084348D = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -137,6 +141,7 @@
 			files = (
 				B6E77BF71CD489EC0084348D /* ViewController.swift in Sources */,
 				B6E77BF51CD489EC0084348D /* AppDelegate.swift in Sources */,
+				B6E77C071CD489FD0084348D /* CHRangeSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Christos-Hadjikyriacos.CHRangeSlider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Christos-Hadjikyriacos.CHRangeSlider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +293,7 @@
 				B6E77C051CD489EC0084348D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
